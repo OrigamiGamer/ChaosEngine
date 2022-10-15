@@ -34,7 +34,7 @@ body {
 }
 
 .logo_img {
-    background-image: url("Blog/img/logo.png");
+    background-image: url("img/logo.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 40px;
