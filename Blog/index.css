@@ -1,0 +1,81 @@
+/* index */
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background-color: rgba(63, 66, 71, 0.8);
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    width: 60%;
+    height: 2000px;
+    top: 50px;
+    background-color: rgba(20, 20, 20, 0.5);
+}
+
+/* logo */
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    left: 10px;
+}
+
+.logo_img {
+    background-image: url("res/img/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.logo_img:hover {
+    transform: scale(1.2);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logo_img:active {
+    transform: scale(0.9);
+}
+
+
+.logo_text {
+    font-family: "JetBrains Mono", "JetBrains Sans", "Microsoft YaHei Mono";
+    font-size: 20px;
+    position: relative;
+    left: 5px;
+}
+
+.imgbox {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+}
+
+.imgbox_img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url("res/img/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
