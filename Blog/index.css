@@ -12,6 +12,7 @@ body {
     left: 0;
     background-color: rgba(63, 66, 71, 0.8);
     z-index: 1;
+    overflow: hidden;
 }
 
 .content {
@@ -60,6 +61,15 @@ body {
     left: 5px;
 }
 
+input {
+    position: relative;
+    left: 50%;
+    width: 200px;
+    height: 80px;
+}
+
+
+/*
 .imgbox {
     display: flex;
     flex-direction: column;
@@ -79,3 +89,4 @@ body {
     background-position: center;
     background-size: cover;
 }
+*/
