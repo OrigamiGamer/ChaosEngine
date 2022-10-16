@@ -1,44 +1,47 @@
 /* index */
-body {
-    display: flex;
-    justify-content: center;
-}
-
 .bg {
     position: fixed;
     background-image: url("img/bg.png");
     background-size: cover;
     width: 100%;
     height: 100%;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
 }
 
 .header {
-    position: fixed;
+    position: relative;
     width: 100%;
     height: 50px;
-    top: 0;
-    left: 0;
     z-index: 1;
     overflow: hidden;
-    background-color: rgba(50, 50, 60, 0.8);
-
-    box-shadow: 0 0 6px rgba(5, 5, 5, 0.8);
-}
-
-.index{
-    
+    background-color: rgba(50, 50, 50, 0.8);
+    box-shadow: 0 0 5px rgba(5, 5, 5, 0.8);
 }
 
 .content {
-    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.index {
+    position: fixed;
+    width: 18%;
+    height: 600px;
+    top: 60px;
+    left: 1%;
+    background-color: rgba(40, 40, 40, 0.8);
+    box-shadow: 0 0 5px rgba(5, 5, 5, 0.8);
+    font-size: 20px;
+}
+
+.article {
+    position: relative;
     width: 60%;
     height: 2000px;
-    top: 60px;
-    background-color: rgba(30, 30, 30, 0.8);
-
-    box-shadow: 0 0 6px rgba(5, 5, 5, 0.8);
+    top: 10px;
+    background-color: rgba(40, 40, 40, 0.8);
+    box-shadow: 0 0 5px rgba(5, 5, 5, 0.8);
 }
 
 /* logo */
@@ -73,18 +76,52 @@ body {
 
 
 .logo_text {
-    font-family: "JetBrains Mono", "JetBrains Sans", "Microsoft YaHei Mono";
-    font-size: 20px;
     position: relative;
     left: 5px;
+    font-family: "JetBrains Mono", "JetBrains Sans", "Microsoft YaHei Mono", "Microsoft YaHei";
+    font-size: 20px;
+    color:rgb(180, 180, 180);
+    text-decoration: none;
+    transition: 0.2s;
 }
 
-input {
-    position: relative;
-    left: 50%;
-    width: 200px;
-    height: 80px;
+.logo_text:hover {
+    color:rgb(240, 240, 240);
 }
+
+.index_title {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgba(0, 110, 255, 0.9);
+    box-shadow: 0 0 5px rgba(5, 5, 5, 0.8);
+}
+
+.index_button {
+    display: flex;
+    align-items: center;
+    color: rgb(220, 220, 220);
+    background-color: transparent;
+    width: 100%;
+    height: 30px;
+    border-width: 0;
+    text-align: left;
+    font-family: "JetBrains Mono", "JetBrains Sans", "Microsoft YaHei Mono", "Microsoft YaHei";
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.index_button:hover {
+    background-color: rgba(80, 80, 80, 0.5);
+}
+
+.index_button:active {
+    background-color: rgba(50, 50, 50, 0.5);
+}
+
+
 
 
 /*
