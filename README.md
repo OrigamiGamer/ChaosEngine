@@ -2,7 +2,7 @@
  2D Game Engine, make game development faster in E.
 
 # ps:
-I made the website be saved in the same project by mistake.
+I made the website files be saved in the same project by mistake.
 
 So you can find the source of the engine in folder "Engine".
 
