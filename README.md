@@ -2,8 +2,4 @@
  2D Game Engine, make game development faster in E.
 
 # ps:
-I made the website files be saved in the same project by mistake.
-
-So you can find the source of the engine in folder "Engine".
-
-And if you want to read the source of website, you can also get it from the folder "Blog".
+You can get more information about ChaosEngine from [ChaosEngineWebsite](http://OrigamiGamer.github.io/ChaosEngineWebsite)
