@@ -1,0 +1,19 @@
+>>Created-> ObjectModel
+>>Created-> Sprite
+>>Created-> ObjectModel
+ChaosEngine >> Game window is initializing...
+>>Created-> ObjectModel
+>>Created-> ObjectModel
+>>Created-> Sprite
+>>Created-> ObjectModel
+>>Created-> HoloText
+>>Created-> ObjectModel
+>>Created-> HoloText
+>>Created-> CollisionBox
+>>Created-> ObjectModel
+>>Created-> EditBox
+RegObjectManager>> RegObject-> ObjectModel
+RegObjectManager>> RegObject-> Sprite
+RegObjectManager>> RegObject-> HoloText
+RegObjectManager>> RegObject-> EditBox
+ChaosEngine >> Game window has been closed!

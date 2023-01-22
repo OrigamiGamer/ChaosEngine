@@ -1,0 +1,12 @@
+// ChaoScript 测试代码
+voi d main(  // 名称左侧修饰符，会被强制修正
+	in t  p1,
+	int p2,
+	int p3
+){
+	debug();
+	return(0);
+};
+void debug(param1){
+	test();
+};

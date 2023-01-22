@@ -1,0 +1,25 @@
+// ChaoScript 
+
+// Static Compiled Script
+// 静态编译型脚本
+
+// 测试代码
+
+int var_int;
+
+void debug(int param1){
+	static int localVar; // 局部静态变量
+	beCalledFunction(); // 函数调用
+	if(){
+		
+	}else{
+		print("false->else");
+	}; // 流程控制
+};
+
+int main(int p1, int p2){
+	var_int = 114514;
+	
+	debug();
+	return(0);
+};

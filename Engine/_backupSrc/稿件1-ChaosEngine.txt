@@ -1,0 +1,12 @@
+标题: 
+
+ChaosEngine，游戏引擎但是易语言？
+
+内容:
+
+--Header:
+有一天突然想亲手以易语言为例做一个游戏引擎，于是就有了ChaosEngine，混沌引擎。
+Chaos;Engine(bushi)，命名源自"科学ADV"的Chaos系列作品标题，搭嘎!(但是)，与其内容无关。
+
+--Intro:
+关于混沌引擎，

@@ -1,0 +1,72 @@
+{
+    "Scenes": [
+        {
+            "Name": "Scene 1",
+            "Objects": [
+                {
+                    "Type": "Sprite",
+                    "Name": "new sprite",
+                    "Properties": {
+                        "Position": [
+                            {
+                                "y": 0,
+                                "x": 0,
+                                "z": 0
+                            }
+                        ],
+                        "Size": [
+                            {
+                                "width": 100,
+                                "height": 100
+                            }
+                        ],
+                        "Align":[ // 相对居中
+                        	{
+                        		"Parent":"<ObjectName>", // 父物体
+                        		"x": false,
+                        		"y": false,
+                        		"z": false
+                        	}
+                        ]
+
+                    }
+                }
+            ]
+        },
+
+                {
+            "Name": "Scene 2",
+            "Objects": [
+                {
+                    "Type": "Sprite",
+                    "Name": "new sprite",
+                    "Properties": {
+                        "Position": [
+                            {
+                                "y": 0,
+                                "x": 0,
+                                "z": 0
+                            }
+                        ],
+                        "Size": [
+                            {
+                                "width": 100,
+                                "height": 100
+                            }
+                        ],
+                        "Align":[
+                        	{
+                        		"Parent":"<ObjectName>",
+                        		"x": false,
+                        		"y": false,
+                        		"z": false
+                        	}
+                        ]
+
+                    }
+                }
+            ]
+        }
+
+    ]
+}
