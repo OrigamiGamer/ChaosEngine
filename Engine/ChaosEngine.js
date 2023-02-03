@@ -1,27 +1,5 @@
-{
 
-    // 定义接口类
-    class ChaosEngine{
-        
-        init(){
-        
-        }
-        
-        call(InterfaceName = String){
-            
-        }
+function main() {
 
-    }
-
-
-    // 全局变量
-    var Engine = new ChaosEngine();
-
-    Engine.call();
-
-
-
-
-
-
+    return (false);
 }
