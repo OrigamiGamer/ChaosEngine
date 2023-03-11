@@ -1,18 +1,30 @@
 
 // Define //
-var Const = {
+const CONST_MSG = {
 	CALLBACK: "[CALLBACK]",
+	EXIT: "[EXIT]",
 
-}
-var Engine = {
+}; Object.freeze(CONST_MSG);
+
+const Engine = {
 	Init: function () {
-		throw Const.CALLBACK + lpEngine.GetGlobalSceneJsonString();
+		throw CONST_MSG.CALLBACK + lpEngine.GetGlobalSceneJsonString();
 	},
 	GetGlobalSceneJsonString: function () {
-		return(JSON.stringify(GlobalScene));
+		return (JSON.stringify(GlobalScene));
 	},
-}
+	Exit: function () {
+		throw CONST_MSG.EXIT;
+	},
+
+}; Object.freeze(Engine);
+
+
+// Standard Interface //
+function New(AnyObject) {
+	return (Object.create(AnyObject));
+}; Object.freeze(New);
+
 
 // Runtime //
-var lpEngine = Engine;
-
+var lpEngine = New(Engine);
