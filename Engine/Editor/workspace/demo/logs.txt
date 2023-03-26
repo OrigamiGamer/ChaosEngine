@@ -1,0 +1,27 @@
+ChaosEngine>> Game window has been initialized!
+>>Created-> Sprite -> Default Element
+>>Created-> TextBox -> Default Element
+>>Created-> TextBox -> Default Element
+>>Created-> CollisionBox -> Default Element
+>>Created-> EditBox -> Default Element
+>>Created-> CollisionBox -> Default Element
+>>Created-> Sprite -> Default Element
+>>Created-> TableBox -> Default Element
+>>Created-> TextBox -> Default Element
+>>Created-> TextBox -> Default Element
+>>Created-> CollisionBox -> Default Element
+>>Created-> EditBox -> Default Element
+>>Created-> PropertyEditBox -> Default Element
+RegObjectManager>> RegObject-> ObjectModel
+RegObjectManager>> RegObject-> Sprite
+RegObjectManager>> RegObject-> TextBox
+RegObjectManager>> RegObject-> EditBox
+RegObjectManager>> RegObject-> TableBox
+RegObjectManager>> RegObject-> PropertyEditBox
+>> Register-> SceneManager
+>> Register-> ScriptEngine
+ScriptEngine>> Callback-> {}
+>>Created-> Sprite -> Default Element
+>>Created-> Sprite -> Default Element
+>> Register-> HittingBoard
+ChaosEngine>> Game window has been closed!
