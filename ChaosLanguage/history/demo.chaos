@@ -1,0 +1,63 @@
+namespace Chaos{
+	class Base{
+		public void TestMethod(){
+			Chaos::Base cBase = new Chaos::Base;
+			cBase.TestMethod();
+		}
+		int IDK_METHOD(){
+			int number = 0;
+			return(0);
+		}
+	}
+	
+	
+	
+	
+	
+	
+	// 数据对象: 初始化与调用
+	
+	
+	
+	// 实例: (运行时)
+	Chaos::Base BaseObj = new Chaos::Base;
+	BaseObj.TestMethod();
+	
+	
+	// 实际意义:
+	
+	// Base BaseObj = new Base;
+	new BaseObj -> Base  '创建一个名为BaseObj的对象，类型为Base'
+	
+	// BaseObj.TestMethod();
+	TestMethod() <- Base.TestMethod()  '实际调用方法的位置，位于源类的定义处'
+	
+	
+	
+}
+namespace Chaos2{
+	class Base{
+		public void __NO_INIT(){
+			Chaos::Base cBase = new Chaos::Base;
+			cBase.TestMethod();
+			if(false){
+				return();
+			}
+			if(false){
+				return();
+			}
+			if(false){
+				return();
+			}
+			
+			
+			
+			//   f1();   if(){   f2();   }   f3();
+			
+		}
+		int __NOTHING(){
+			int number = 0;
+			return(0);
+		}
+	}
+}

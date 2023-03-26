@@ -1,0 +1,79 @@
+// ChaosLanguage
+// "混沌语言"
+
+// 本质为面向对象编程，属于解释型语言，运行原理偏向脚本。
+// 以E语言作为底层，依赖"虚拟机"文件(即动态链接库文件)运行代码。
+// 任何 Windows程序 都可以依赖 ChaosRE 来运行、交互 CL 代码
+// 
+// 	相关注释:
+//		ChaosRE(ChaosRuntimeEnvironment): 
+// 			CL运行环境，其本质上属于 Windows动态链接库。
+// 		CL(ChaosLanguage): 
+// 			混沌语言的简称。
+
+namespace Chaos{
+	
+	// 混沌语言基本类实现。
+	class Base{
+		public void TestMethod(){
+			// 作为一个偏脚本类型的解释型语言，跟Python不差，
+			// 但是自己做的话，未免有些强人所难了吧...
+			
+			Chaos::Base cBase = new Chaos::Base;
+			cBase.TestMethod();
+		}
+		public void SB(){
+			
+		}
+	}
+	
+
+	// Variable VarObj = new Variable();
+	// new Variable();
+	
+	// 关于 声明->引用&初始化->调用 问题：
+	// 		若 引用类型 或 初始化对象 未被定义，则在运行过程中，
+	// 		未被定义的引用部分将会被自动省略，调试器抛出异常，
+	// 		程序将继续运行。
+}
+
+
+namespace Space{
+	class Class{
+		public void Method(){
+			
+		}
+	}
+	
+	class Main{
+		public void Run(){
+			Space.Class ClassA;
+			ClassA.Method();
+		}
+	}
+}
+
+
+
+
+namespace __Space{
+	class MainClass{
+		public void Main(){
+			Console.WriteLine("Hello, I'm the world.");
+		}
+	}
+	
+	class OtherClass{
+		public void methodName(param){
+			System.Debug();
+		}
+	}
+}
+
+// namespace Space{class MainClass{public void Main(1){Console.WriteLine("Hello, I'm the world.");}}class OtherClass{public void methodName(aaaaaa){System.Debug();}}}
+//	namespace Space1{
+
+//	}
+//	namespace Space2{
+		
+//	}
