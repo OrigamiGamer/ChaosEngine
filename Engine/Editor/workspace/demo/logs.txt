@@ -1,44 +1,54 @@
-ChaosEngine>> Game window initialized!
->>Created-> Sprite -> Default Element
->>Created-> TextBox -> Default Element
->>Created-> TextBox -> Default Element
->>Created-> CollisionBox -> Default Element
->>Created-> EditBox -> Default Element
->>Created-> CollisionBox -> Default Element
->>Created-> Sprite -> Default Element
->>Created-> TableBox -> Default Element
-RegObjectManager>> RegObject-> ObjectModel
-RegObjectManager>> RegObject-> Sprite
-RegObjectManager>> RegObject-> TextBox
-RegObjectManager>> RegObject-> EditBox
-RegObjectManager>> RegObject-> TableBox
->> Register-> SceneManager
->> Register-> ScriptEngine
->>Created-> Sprite -> Default Element
->>Created-> Scene -> Default Element
->>Created-> TextBox -> Default Element
->> Register-> TextBox
->> Register-> EditBox
->> Register-> EditBox
->> Register-> TableBox
-TableBox>> AddObject-> TextBox
-x=0, y=0
-TableBox>> AddObject-> TextBox
-x=0, y=0
-TableBox>> AddObject-> TextBox
-x=0, y=0
-TableBox>> AddObject-> TextBox
-x=0, y=0
-TableBox>> AddObject-> TextBox
-x=0, y=0
-TableBox>> AddObject-> TextBox
-x=0, y=0
-TableBox>> AddObject-> TextBox
-x=0, y=0
-TableBox>> AddObject-> TextBox
-x=0, y=0
-TableBox>> AddObject-> TextBox
-x=0, y=0
-TableBox>> AddObject-> TextBox
-x=0, y=0
-ScriptEngine>> Callback-> {"Scenes":[{"Name":"main scene","Objects":[{"Name":"new sprite","Type":"Sprite","Properties":{"Size":[{"width":120,"height":120}],"Position":[{"x":0,"y":0,"z":0}]}},{"Name":"new text","Type":"HoloText","Properties":{"Size":[{"width":100,"height":100}],"Position":[{"x":0,"y":0,"z":0}]}}]}]}
+ChaosEngine>> Game window has been initialized!
+>> Register -> ScriptEngine
+ScriptEngine>> Callback-> {}
+>> Register -> AnimationManager
+>> Register -> IGraphicRender
+>> Register -> TextBox
+>> Register -> EditBox
+>> Register -> EditBox
+>> Register -> EUI_Resizer
+>> Register -> EUI_Axis
+>> Register -> EUI_AttributePanel
+>> Created -> Element (TextBox)
+>> Created -> Element (TextBox)
+>> Created -> Element (CollisionBox)
+>> Created -> Element (IGraphicRender)
+>> Created -> Element (Sprite)
+>> Created -> Element (EditBox)
+>> Created -> Element (CollisionBox)
+>> Created -> Element (Timer)
+>> Created -> Element (TouchSenser)
+>> Created -> Element (EUI_AttributeEditBox)
+>> Created -> Element (TextBox)
+>> Created -> Element (TextBox)
+>> Created -> Element (CollisionBox)
+>> Created -> Element (IGraphicRender)
+>> Created -> Element (Sprite)
+>> Created -> Element (EditBox)
+>> Created -> Element (CollisionBox)
+>> Created -> Element (Timer)
+>> Created -> Element (TouchSenser)
+>> Created -> Element (EUI_AttributeEditBox)
+>> Created -> Element (TextBox)
+>> Created -> Element (TextBox)
+>> Created -> Element (CollisionBox)
+>> Created -> Element (IGraphicRender)
+>> Created -> Element (Sprite)
+>> Created -> Element (EditBox)
+>> Created -> Element (CollisionBox)
+>> Created -> Element (Timer)
+>> Created -> Element (TouchSenser)
+>> Created -> Element (EUI_AttributeEditBox)
+>> Created -> Element (TextBox)
+>> Created -> Element (TextBox)
+>> Created -> Element (CollisionBox)
+>> Created -> Element (IGraphicRender)
+>> Created -> Element (Sprite)
+>> Created -> Element (EditBox)
+>> Created -> Element (CollisionBox)
+>> Created -> Element (Timer)
+>> Created -> Element (TouchSenser)
+>> Created -> Element (EUI_AttributeEditBox)
+>> Register -> EUI_ObjectAttributeController
+>> Register -> EUI_Button
+>> Register -> ObjectModel

@@ -1,0 +1,16 @@
+
+class Demo{
+	void Method(int param){
+		int GlobalVariable = param;
+	}
+}
+
+int GlobalVariable = 114514;
+
+class Main{
+	void Main(string parameters[]){
+		Demo demo = new Demo();
+		demo.Method(114514);
+
+	}
+}

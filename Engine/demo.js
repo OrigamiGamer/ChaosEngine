@@ -24,36 +24,6 @@ var GlobalScene = {
     ]
 }
 
-const ObjectModel = {
-    name: "",
-    type: "",
-    properties: {
-        size: {
-            width: 0,
-            height: 0
-        },
-        pos: {
-            x: 0,
-            y: 0,
-            z: 0
-        }
-    },
-}
-
-const ObjectManager = {
-    create: function (newType, newName) {
-        var newObj = Object.create(ObjectModel);
-        newObj.type = newType;
-        newObj.name = newName;
-        return newObj;
-    }
-}
-
-var ObjectArray = [];
-var newObject = ObjectManager.create("Sprite", "newObj");
-ObjectArray.push(newObject);
-
-
 
 
 // var global_scenes = [
@@ -100,4 +70,4 @@ ObjectArray.push(newObject);
 
 // var map = ObjectModel.create("newObject");
 
-// you should continue to finish it, if you saw at the next time...XD
+// you should continue to finish it, if you saw me next time...XD
